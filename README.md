@@ -4,7 +4,7 @@ versione 2.0
 nel crontab deve essere
 
 
-  <code>0 8,16 * * 1,3,5 python3 path/to/folder/FollowByFollower.py</code>
+  <code>0 8,16 * * 1,3,5 python3 path/to/folder/FollowByHashtag.py</code>
 
   <code>0 8,16 * * 2,4,6 python3 path/to/folder/FollowByLocation.py</code>
 
