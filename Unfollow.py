@@ -43,40 +43,40 @@ for n in range(0, 6):  # considera il secondo numero moltiplicato per 5
     unfollow = browser.find_element_by_xpath("/html/body/div[1]/section/main/div/header/section/ul/li[3]/a")
     unfollow.click()
     sleep(10)
-    unfollow = browser.find_element_by_xpath("/html/body/div[5]/div/div/div[2]/ul/div/li[1]/div/div[3]/button")
+    unfollow = browser.find_element_by_xpath("/html/body/div[4]/div/div/div[2]/ul/div/li[1]/div/div[3]/button")
     unfollow.click()  # click su unfollow
     sleep(3)
-    if browser.find_element_by_xpath("/html/body/div[6]/div/div/div/div[3]/button[1]"):
-        unfollow = browser.find_element_by_xpath("/html/body/div[6]/div/div/div/div[3]/button[1]")
+    if browser.find_element_by_xpath("/html/body/div[5]/div/div/div/div[3]/button[1]"):
+        unfollow = browser.find_element_by_xpath("/html/body/div[5]/div/div/div/div[3]/button[1]")
         unfollow.click()  # click su sicurezza
         sleep(3)
-    unfollow = browser.find_element_by_xpath("/html/body/div[5]/div/div/div[2]/ul/div/li[2]/div/div[3]/button")
+    unfollow = browser.find_element_by_xpath("/html/body/div[4]/div/div/div[2]/ul/div/li[2]/div/div[3]/button")
     unfollow.click()  # click su unfollow
     sleep(3)
-    if browser.find_element_by_xpath("/html/body/div[6]/div/div/div/div[3]/button[1]"):
-        unfollow = browser.find_element_by_xpath("/html/body/div[6]/div/div/div/div[3]/button[1]")
+    if browser.find_element_by_xpath("/html/body/div[5]/div/div/div/div[3]/button[1]"):
+        unfollow = browser.find_element_by_xpath("/html/body/div[5]/div/div/div/div[3]/button[1]")
         unfollow.click()  # click su sicurezza
         sleep(3)
-    unfollow = browser.find_element_by_xpath("/html/body/div[5]/div/div/div[2]/ul/div/li[3]/div/div[3]/button")
+    unfollow = browser.find_element_by_xpath("/html/body/div[4]/div/div/div[2]/ul/div/li[3]/div/div[3]/button")
     unfollow.click()  # click su unfollow
     sleep(3)
-    if browser.find_element_by_xpath("/html/body/div[6]/div/div/div/div[3]/button[1]"):
-        unfollow = browser.find_element_by_xpath("/html/body/div[6]/div/div/div/div[3]/button[1]")
+    if browser.find_element_by_xpath("/html/body/div[5]/div/div/div/div[3]/button[1]"):
+        unfollow = browser.find_element_by_xpath("/html/body/div[5]/div/div/div/div[3]/button[1]")
         unfollow.click()  # click su sicurezz
         sleep(3)
-    unfollow = browser.find_element_by_xpath("/html/body/div[5]/div/div/div[2]/ul/div/li[4]/div/div[3]/button")
+    unfollow = browser.find_element_by_xpath("/html/body/div[4]/div/div/div[2]/ul/div/li[4]/div/div[3]/button")
     unfollow.click()  # click su unfollow
     sleep(3)
-    if browser.find_element_by_xpath("/html/body/div[6]/div/div/div/div[3]/button[1]"):
-        unfollow = browser.find_element_by_xpath("/html/body/div[6]/div/div/div/div[3]/button[1]")
+    if browser.find_element_by_xpath("/html/body/div[5]/div/div/div/div[3]/button[1]"):
+        unfollow = browser.find_element_by_xpath("/html/body/div[5]/div/div/div/div[3]/button[1]")
         unfollow.click()  # click su sicurezza
         sleep(3)
-    unfollow = browser.find_element_by_xpath("/html/body/div[5]/div/div/div[2]/ul/div/li[5]/div/div[3]/button")
+    unfollow = browser.find_element_by_xpath("/html/body/div[4]/div/div/div[2]/ul/div/li[5]/div/div[3]/button")
     unfollow.click()  # click su unfollow
     sleep(3)
-    if browser.find_element_by_xpath("/html/body/div[6]/div/div/div/div[3]/button[1]"):
-        unfollow = browser.find_element_by_xpath("/html/body/div[6]/div/div/div/div[3]/button[1]")
+    if browser.find_element_by_xpath("/html/body/div[5]/div/div/div/div[3]/button[1]"):
+        unfollow = browser.find_element_by_xpath("/html/body/div[5]/div/div/div/div[3]/button[1]")
         unfollow.click()  # click su sicurezza
         sleep(3)
-    print (dt_string, "Ho eseguito l'unfollow sulle ultime", n * 5, "persone")
+    print(dt_string, "Ho eseguito l'unfollow sulle ultime", n * 5, "persone")
 browser.close()
