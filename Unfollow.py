@@ -79,4 +79,5 @@ for n in range(0, 6):  # considera il secondo numero moltiplicato per 5
         unfollow.click()  # click su sicurezza
         sleep(3)
     print(dt_string, "Ho eseguito l'unfollow sulle ultime", n * 5, "persone")
+
 browser.close()

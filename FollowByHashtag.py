@@ -36,28 +36,28 @@ login_link.click()
 sleep(10)
 print(dt_string, "Ho salvato le informazioni")
 
-for hashtag in random.choices(hashtags):
-    browser.get(hashtag)
-    sleep(10)
-    # if browser.find_element_by_xpath("/html/body/div[1]/section/main/div/h2"):
-    #    browser.get('https://www.instagram.com/')
+for n in range(0, 3):
 
-    follow = browser.find_element_by_xpath(
-        "/html/body/div[1]/section/main/article/div[2]/div/div[1]/div[1]/a/div/div[2]")  # click sulla foto
-    follow.click()
-    sleep(10)
-
-    for i in range(0, 25):  # per ogni hashtag segui 25 persone
+    for hashtag in random.choices(hashtags):
+        browser.get('https://www.instagram.com/explore/tags/' + hashtag + '/')
+        sleep(10)
 
         follow = browser.find_element_by_xpath(
+            "/html/body/div[1]/section/main/article/div[2]/div/div[1]/div[1]/a/div/div[2]")  # click sulla foto
+        follow.click()
+        sleep(10)
+
+        for i in range(0, 10):  # per ogni hashtag segui 10 persone
+
+            follow = browser.find_element_by_xpath(
                 "/html/body/div[4]/div[2]/div/article/header/div[2]/div[1]/div[2]/button")  # click sul follow
-        follow.click()
-        sleep(10)
+            follow.click()
+            sleep(10)
 
-        follow = browser.find_element_by_xpath("/html/body/div[4]/div[1]/div/div/a[2]")  # click sulla freccia dx
-        follow.click()
-        sleep(10)
+            follow = browser.find_element_by_xpath("/html/body/div[4]/div[1]/div/div/a[2]")  # click sulla freccia dx
+            follow.click()
+            sleep(10)
 
-        print(dt_string, "Sto Seguendo", i + 1, " sull'hashtag", hashtag)
+            print(dt_string, "Sto Seguendo", i + 1, " sull'hashtag", hashtag)
 
 browser.close()

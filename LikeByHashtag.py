@@ -38,26 +38,27 @@ login_link.click()
 sleep(10)
 print(dt_string, "Ho salvato le informazioni")
 
-for hashtag in random.choices(hashtags):  # fa il giro di tutti gli hashtag impostati
-    browser.get('https://www.instagram.com/explore/tags/' + hashtag + '/')
-    sleep(10)
-
-    like = browser.find_element_by_xpath(
-        "/html/body/div[1]/section/main/article/div[2]/div/div[1]/div[1]/a/div/div[2]")
-    like.click()  # click sulla foto
-    sleep(10)
-
-    for i in range(0, 30):  # per ogni hashtag metti 30 like
-
-        like = browser.find_element_by_class_name("fr66n")
-        like.click()  # click sul cuore
+for n in range(0, 3):
+    for hashtag in random.choices(hashtags):  # fa il giro di tutti gli hashtag impostati
+        browser.get('https://www.instagram.com/explore/tags/' + hashtag + '/')
         sleep(10)
 
-        like = browser.find_element_by_xpath("/html/body/div[4]/div[1]/div/div/a[2]")
-        like.click()  # click sulla freccia
+        like = browser.find_element_by_xpath(
+            "/html/body/div[1]/section/main/article/div[2]/div/div[1]/div[1]/a/div/div[2]")
+        like.click()  # click sulla foto
         sleep(10)
 
-        print(dt_string, "Ho messo", i + 1, "Like sull'hashtag", hashtag)
+        for i in range(0, 10):  # per ogni hashtag metti 10 like
+
+            like = browser.find_element_by_class_name("fr66n")
+            like.click()  # click sul cuore
+            sleep(10)
+
+            like = browser.find_element_by_xpath("/html/body/div[4]/div[1]/div/div/a[2]")
+            like.click()  # click sulla freccia
+            sleep(10)
+
+            print(dt_string, "Ho messo", i + 1, "Like sull'hashtag", hashtag)
 
 
 browser.close()
