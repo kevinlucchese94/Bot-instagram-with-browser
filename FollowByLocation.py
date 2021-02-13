@@ -49,22 +49,17 @@ for hashtag in random.choices(location):
     follow.click()
     sleep(10)
 
-    for i in range(0, 2):  # per ogni hashtag segui 2 persone
+    for i in range(0, 25):  # per ogni hashtag segui 25 persone
 
-        if browser.find_element_by_xpath("/html/body/div[4]/div[2]/div/article/header/div[2]/div[1]/div[2]/button"):
-            follow = browser.find_element_by_xpath(
-                "/html/body/div[4]/div[2]/div/article/header/div[2]/div[1]/div[2]/button")  # click sul follow
-            follow.click()
-            sleep(10)
-
-        else:
-            print("ricarico la pagina")
-            browser.get('https://www.instagram.com/explore/tags/' + hashtag + '/')
-            sleep(10)
+        follow = browser.find_element_by_xpath(
+            "/html/body/div[4]/div[2]/div/article/header/div[2]/div[1]/div[2]/button")  # click sul follow
+        follow.click()
+        sleep(10)
 
         follow = browser.find_element_by_xpath("/html/body/div[4]/div[1]/div/div/a[2]")  # click sulla freccia dx
         follow.click()
         sleep(10)
+
         print(dt_string, "Sto Seguendo", i + 1, " sull'hashtag", hashtag)
 
 browser.close()

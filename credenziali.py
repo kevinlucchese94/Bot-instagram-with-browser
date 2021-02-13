@@ -1,3 +1,3 @@
 # myconfig.py
-username = "elilucch@yahoo.it"
-password = "Erminio67"
+username = "mispedisco"
+password = "lucchese2021"

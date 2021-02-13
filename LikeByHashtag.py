@@ -1,17 +1,16 @@
-from time import sleep
-from datetime import datetime
-from selenium import webdriver
-from selenium.webdriver import ActionChains
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.common.keys import Keys
 import random
+from datetime import datetime
+from time import sleep
 
-from credenziali import *
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+
 from ListHashtag import *
+from credenziali import *
 
 options = Options()
-options.add_argument('--headless')
-options.add_argument('--disable-gpu')
+# options.add_argument('--headless')
+# options.add_argument('--disable-gpu')
 browser = webdriver.Firefox(options=options)
 now = datetime.now()
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
@@ -40,22 +39,25 @@ sleep(10)
 print(dt_string, "Ho salvato le informazioni")
 
 for hashtag in random.choices(hashtags):  # fa il giro di tutti gli hashtag impostati
+    browser.get('https://www.instagram.com/explore/tags/' + hashtag + '/')
+    sleep(10)
 
-    for i in range(0, 1):  # per ogni hashtag metti 3 like
-        browser.get('https://www.instagram.com/explore/tags/' + hashtag + '/')
+    like = browser.find_element_by_xpath(
+        "/html/body/div[1]/section/main/article/div[2]/div/div[1]/div[1]/a/div/div[2]")
+    like.click()  # click sulla foto
+    sleep(10)
+
+    for i in range(0, 30):  # per ogni hashtag metti 30 like
+
+        like = browser.find_element_by_class_name("fr66n")
+        like.click()  # click sul cuore
         sleep(10)
 
-        like = browser.find_element_by_xpath(
-            "/html/body/div[1]/section/main/article/div[2]/div/div[1]/div[1]/a/div/div[2]")  # click sulla foto
-        like.click()
-        sleep(10)
-
-        actions = ActionChains(browser)
-        actions.send_keys(Keys.TAB * 5)
-        actions.send_keys(Keys.SPACE)
-        actions.perform()
+        like = browser.find_element_by_xpath("/html/body/div[4]/div[1]/div/div/a[2]")
+        like.click()  # click sulla freccia
         sleep(10)
 
         print(dt_string, "Ho messo", i + 1, "Like sull'hashtag", hashtag)
+
 
 browser.close()
