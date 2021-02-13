@@ -1,3 +1,3 @@
 # myconfig.py
-username = "mispedisco"
-password = "lucchese2021"
+username = "inserire usernaname o mail"
+password = "inserire pwd"
