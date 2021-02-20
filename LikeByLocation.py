@@ -33,12 +33,12 @@ login_link = browser.find_element_by_xpath(
 login_link.click()
 sleep(10)
 print(dt_string, "Ho eseguito l'accesso")
-login_link = browser.find_element_by_xpath("/html/body/div[4]/div/div/div/div[3]/button[2]")
+login_link = browser.find_element_by_xpath("/html/body/div[1]/section/main/div/div/div/div/button")
 login_link.click()
 sleep(10)
 print(dt_string, "Ho salvato le informazioni")
 
-for n in range(0, 7):
+for n in range(0, 3):
     for hashtag in random.choices(location):  # fa il giro di tutti gli hashtag impostati
         browser.get(hashtag)
         sleep(10)
@@ -48,7 +48,7 @@ for n in range(0, 7):
         like.click()  # click sulla foto
         sleep(10)
 
-        for i in range(0, 3):  # per ogni hashtag metti 10 like
+        for i in range(0, 10):  # per ogni hashtag metti 10 like
 
             like = browser.find_element_by_class_name("fr66n")
             like.click()  # click sul cuore

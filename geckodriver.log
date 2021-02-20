@@ -811,3 +811,169 @@ A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1613503775104	geckodriver	INFO	Listening on 127.0.0.1:49618
+1613503775162	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/zl/wr6wn_bn6jsct5sn4yjmz8080000gn/T/rust_mozprofilePVoS8q"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613503784278	Marionette	INFO	Listening on port 49628
+1613503784328	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613503784343	Marionette	ERROR	[19] No reply from Marionette:Register
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613503785086	Marionette	ERROR	[35] No reply from Marionette:Register
+1613503839410	Marionette	INFO	Stopped listening on port 49628
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613503841370	geckodriver	INFO	Listening on 127.0.0.1:49840
+1613503842384	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/zl/wr6wn_bn6jsct5sn4yjmz8080000gn/T/rust_mozprofile1QgtZ8"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613503845535	Marionette	INFO	Listening on port 49851
+1613503845598	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613503845613	Marionette	ERROR	[16] No reply from Marionette:Register
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613503846303	Marionette	ERROR	[35] No reply from Marionette:Register
+1613503907790	geckodriver	INFO	Listening on 127.0.0.1:50007
+1613503907801	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/zl/wr6wn_bn6jsct5sn4yjmz8080000gn/T/rust_mozprofilecgJ6ft"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613503912160	Marionette	INFO	Listening on port 50016
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613503912259	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613503912272	Marionette	ERROR	[16] No reply from Marionette:Register
+1613503913075	Marionette	ERROR	[35] No reply from Marionette:Register
+1613503948958	Marionette	ERROR	[37] No reply from Marionette:Register
+1613503990964	Marionette	INFO	Stopped listening on port 49851
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613503995191	Marionette	INFO	Stopped listening on port 50016
+1613504006200	geckodriver	INFO	Listening on 127.0.0.1:50215
+1613504006216	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "/var/folders/zl/wr6wn_bn6jsct5sn4yjmz8080000gn/T/rust_mozprofileIpYrP4"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613504009103	Marionette	INFO	Listening on port 50220
+1613504009138	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613504009151	Marionette	ERROR	[19] No reply from Marionette:Register
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613504009835	Marionette	ERROR	[35] No reply from Marionette:Register
+1613504043506	Marionette	ERROR	[37] No reply from Marionette:Register
+1613504098438	Marionette	ERROR	[39] No reply from Marionette:Register
+1613504153018	Marionette	ERROR	[41] No reply from Marionette:Register
+1613504207521	Marionette	ERROR	[43] No reply from Marionette:Register
+1613504262344	Marionette	ERROR	[45] No reply from Marionette:Register
+1613504317655	Marionette	ERROR	[47] No reply from Marionette:Register
+1613504371243	Marionette	INFO	Stopped listening on port 50220
+1613504874531	geckodriver	INFO	Listening on 127.0.0.1:50537
+1613504874544	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "/var/folders/zl/wr6wn_bn6jsct5sn4yjmz8080000gn/T/rust_mozprofile3MabKe"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613504878888	Marionette	INFO	Listening on port 50542
+1613504878976	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613504878986	Marionette	ERROR	[19] No reply from Marionette:Register
+1613504879654	Marionette	ERROR	[35] No reply from Marionette:Register
+1613504913262	Marionette	ERROR	[37] No reply from Marionette:Register
+1613504967970	Marionette	ERROR	[39] No reply from Marionette:Register
+1613505022550	Marionette	ERROR	[41] No reply from Marionette:Register
+1613505077218	Marionette	ERROR	[43] No reply from Marionette:Register
+1613505131684	Marionette	ERROR	[45] No reply from Marionette:Register
+1613505186350	Marionette	ERROR	[47] No reply from Marionette:Register
+1613505239746	Marionette	INFO	Stopped listening on port 50542
+1613807372813	geckodriver	INFO	Listening on 127.0.0.1:53998
+1613807372853	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/zl/wr6wn_bn6jsct5sn4yjmz8080000gn/T/rust_mozprofileuDlRun"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613807376598	Marionette	INFO	Listening on port 54003
+1613807376674	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613807376685	Marionette	ERROR	[19] No reply from Marionette:Register
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613807377225	Marionette	ERROR	[35] No reply from Marionette:Register
+1613807391700	Marionette	ERROR	[37] No reply from Marionette:Register
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1613807435380	geckodriver	INFO	Listening on 127.0.0.1:54114
+1613807435391	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/zl/wr6wn_bn6jsct5sn4yjmz8080000gn/T/rust_mozprofileBmf5Ax"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613807438537	Marionette	INFO	Listening on port 54119
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613807438603	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613807438620	Marionette	ERROR	[19] No reply from Marionette:Register
+1613807439238	Marionette	ERROR	[35] No reply from Marionette:Register
+1613807453360	Marionette	ERROR	[37] No reply from Marionette:Register
+1613807463239	Marionette	ERROR	[39] No reply from Marionette:Register
+1613807475285	Marionette	ERROR	[41] No reply from Marionette:Register
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613807519445	Marionette	INFO	Stopped listening on port 54003
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613807525708	Marionette	INFO	Stopped listening on port 54119
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613819287178	geckodriver	INFO	Listening on 127.0.0.1:54314
+1613819287188	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/zl/wr6wn_bn6jsct5sn4yjmz8080000gn/T/rust_mozprofileg8Cgy0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613819290280	Marionette	INFO	Listening on port 54319
+1613819290405	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613819290415	Marionette	ERROR	[19] No reply from Marionette:Register
+1613819291610	Marionette	ERROR	[35] No reply from Marionette:Register
+1613819305717	Marionette	ERROR	[37] No reply from Marionette:Register
+1613819315765	Marionette	ERROR	[39] No reply from Marionette:Register
+1613819328328	Marionette	ERROR	[41] No reply from Marionette:Register
+1613819346950	Marionette	ERROR	[43] No reply from Marionette:Register
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1613819392452	geckodriver	INFO	Listening on 127.0.0.1:54422
+1613819392466	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/zl/wr6wn_bn6jsct5sn4yjmz8080000gn/T/rust_mozprofileNaLCdT"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613819395798	Marionette	INFO	Listening on port 54427
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613819395888	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613819395899	Marionette	ERROR	[19] No reply from Marionette:Register
+1613819396685	Marionette	ERROR	[35] No reply from Marionette:Register
+1613819411129	Marionette	ERROR	[37] No reply from Marionette:Register
+1613819420845	Marionette	ERROR	[39] No reply from Marionette:Register
+1613819433013	Marionette	ERROR	[41] No reply from Marionette:Register
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613819634789	Marionette	INFO	Stopped listening on port 54319
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613819636302	Marionette	INFO	Stopped listening on port 54427
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613819637708	geckodriver	INFO	Listening on 127.0.0.1:54537
+1613819637720	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/zl/wr6wn_bn6jsct5sn4yjmz8080000gn/T/rust_mozprofileLCDP97"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613819640894	Marionette	INFO	Listening on port 54542
+1613819641012	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613819641025	Marionette	ERROR	[19] No reply from Marionette:Register
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613819641617	Marionette	ERROR	[35] No reply from Marionette:Register
+1613819657469	Marionette	ERROR	[37] No reply from Marionette:Register
+1613819666787	Marionette	ERROR	[39] No reply from Marionette:Register
+1613819679279	Marionette	ERROR	[41] No reply from Marionette:Register
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
