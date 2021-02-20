@@ -50,7 +50,7 @@ for n in range(0, 3):
         for i in range(0, 10):  # per ogni hashtag segui 10 persone
 
             follow = browser.find_element_by_xpath(
-                "/html/body/div[4]/div[2]/div/article/header/div[2]/div[1]/div[2]/button")  # click sul follow
+                "/html/body/div[5]/div[2]/div/article/header/div[2]/div[1]/div[2]/button")  # click sul follow
             follow.click()
             sleep(10)
 
