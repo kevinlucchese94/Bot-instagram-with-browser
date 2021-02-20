@@ -54,7 +54,7 @@ for n in range(0, 3):
             like.click()  # click sul cuore
             sleep(10)
 
-            like = browser.find_element_by_xpath("/html/body/div[4]/div[1]/div/div/a[2]")
+            like = browser.find_element_by_xpath("/html/body/div[5]/div[1]/div/div/a[2]")
             like.click()  # click sulla freccia
             sleep(10)
 

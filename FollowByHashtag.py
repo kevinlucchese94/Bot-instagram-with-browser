@@ -54,7 +54,7 @@ for n in range(0, 3):
             follow.click()
             sleep(10)
 
-            follow = browser.find_element_by_xpath("/html/body/div[4]/div[1]/div/div/a[2]")  # click sulla freccia dx
+            follow = browser.find_element_by_xpath("/html/body/div[5]/div[1]/div/div/a[2]")  # click sulla freccia dx
             follow.click()
             sleep(10)
 
