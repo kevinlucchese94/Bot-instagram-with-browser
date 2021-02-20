@@ -7,8 +7,8 @@ from selenium.webdriver.firefox.options import Options
 from credenziali import *
 
 options = Options()
-#options.add_argument('--headless')
-#options.add_argument('--disable-gpu')
+options.add_argument('--headless')
+options.add_argument('--disable-gpu')
 browser = webdriver.Firefox(options=options)
 now = datetime.now()
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
