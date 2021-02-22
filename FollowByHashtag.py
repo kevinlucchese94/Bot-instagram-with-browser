@@ -39,6 +39,7 @@ print(dt_string, "Ho salvato le informazioni")
 for n in range(0, 3):
 
     for hashtag in random.choices(hashtags):
+        print("hashtag", hashtag)
         browser.get('https://www.instagram.com/explore/tags/' + hashtag + '/')
         sleep(10)
 
