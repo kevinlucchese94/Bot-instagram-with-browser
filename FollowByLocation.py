@@ -38,9 +38,10 @@ login_link.click()
 sleep(10)
 print(dt_string, "Ho salvato le informazioni")
 
-for n in range(0, 10):
+for n in range(0, 7):
 
     for hashtag in random.choices(location):
+        print(hashtag)
         browser.get(hashtag)
         sleep(10)
 
@@ -49,7 +50,7 @@ for n in range(0, 10):
         follow.click()
         sleep(10)
 
-        for i in range(0, 3):  # per ogni hashtag segui 10 persone
+        for i in range(0, 5):  # per ogni hashtag segui 10 persone
 
             follow = browser.find_element_by_xpath(
                 "/html/body/div[5]/div[2]/div/article/header/div[2]/div[1]/div[2]/button")  # click sul follow
