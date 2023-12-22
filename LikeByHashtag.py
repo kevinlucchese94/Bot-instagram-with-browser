@@ -18,10 +18,13 @@ dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 
 browser.get('https://www.instagram.com/')
 
-# Accetta i cookies
-cookie_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[2]/div/div/div/div[2]/button[1]")))
-cookie_btn.click()
-print(dt_string, "Ho accettato i cookies")
+try:
+    cookie_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[2]/div/div/div/div[2]/button[1]")))
+    cookie_btn.click()
+    print(dt_string, "Ho accettato i cookies")
+except Exception as e:
+    print(dt_string, "Pulsante dei cookies non trovato o già accettato.")
+
 
 # Inserisci Username e Password
 username_input = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input[name='username']")))
